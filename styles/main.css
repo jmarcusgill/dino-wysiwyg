@@ -1,0 +1,28 @@
+body{
+  background-color: aqua;
+}
+#navBar {
+  display: inline-block;
+  width: 100%;
+}
+
+
+.dottedBorder{
+  border: 2px dotted black;
+}
+
+.dinoCard {
+  max-width: 30%;
+}
+
+.dinoCard img {
+  max-width: 100px;
+}
+
+/* Alternate Bground Colors */
+#dinosaurs .dinoCard:nth-of-type(even) {
+  background-color: goldenrod;
+}
+#dinosaurs .dinoCard:nth-of-type(odd) {
+  background-color: limegreen;
+}
